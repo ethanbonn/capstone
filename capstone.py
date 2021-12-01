@@ -1,6 +1,8 @@
-
-FREECADPATH = 'C:/Program Files/FreeCAD 0.19/bin/' 
-import sys 
+from dotenv import load_dotenv
+load_dotenv(".env")
+import os
+import sys
+FREECADPATH = os.environ.get("FREECAD")
 sys.path.append(FREECADPATH) 
 import FreeCAD
 import otsun
