@@ -8,12 +8,7 @@ Prereqs:
 2. run "pip install virtualenv"
 3. Add virtualenv to path
 4. run "virtualenv venv -p python38"
-5. # For Unix/Linux based, type:
-source venv/bin/activate
-5. # For Windows, type:
-   run "cd venv/Scripts/"
-   then run "activate"
-   then "cd../../"
+5. [For Unix/Linux based, run "source venv/bin/activate"]  [For Windows, run "cd venv/Scripts/" then run "activate" then "cd../../"]
 6. run "git clone https://github.com/ethanbonn/capstone.git" (Make sure you are in the capstone root directory")
 7. run "pip install -r requirements.txt"
 8. Create a ".env" file 
